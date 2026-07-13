@@ -18,7 +18,8 @@
     "synergies": [],
     "notes": "Très conseillé pour débuter.",
     "isUnlockedByDefault": true,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "hunter",
@@ -39,7 +40,8 @@
     "synergies": [],
     "notes": "Le chien peut signaler certaines récompenses.",
     "isUnlockedByDefault": true,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "pilot",
@@ -60,7 +62,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": true,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "convict",
@@ -79,7 +82,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": true,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bullet",
@@ -98,7 +102,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "robot",
@@ -119,45 +124,52 @@
     "synergies": [],
     "notes": "La progression dépend du transport de la télévision.",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "paradox",
-    "name": "Paradoxe",
+    "name": "Le Paradoxe",
     "category": "Personnages",
     "emoji": "🌀",
-    "summary": "Personnage secret au départ aléatoire.",
-    "details": "Commence avec une arme, un objet et une apparence aléatoires.",
-    "unlock": "Interagir avec une faille cosmique puis terminer un Passé.",
-    "tips": [],
+    "summary": "Personnage secret au départ entièrement aléatoire.",
+    "details": "Commence avec une arme de départ aléatoire, une autre arme aléatoire et un objet passif aléatoire.",
+    "unlock": "Interagir avec une faille cosmique puis terminer le Passé d’un personnage.",
+    "tips": [
+      "Chaque partie commence avec un équipement différent."
+    ],
     "quality": "",
     "trackable": true,
-    "priority": 2,
+    "priority": 3,
     "type": "Personnages",
-    "floor": "",
+    "floor": "Brèche",
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": true,
+    "update": "A Farewell to Arms"
   },
   {
     "id": "gunslinger",
-    "name": "Pistolero",
+    "name": "Le Pistolero",
     "category": "Personnages",
     "emoji": "🤠",
-    "summary": "Personnage secret maître des synergies.",
-    "details": "Active automatiquement de nombreuses synergies liées aux armes.",
-    "unlock": "Terminer le parcours spécial lié au Paradoxe et vaincre le boss requis.",
-    "tips": [],
+    "summary": "Personnage secret qui profite automatiquement des synergies.",
+    "details": "Commence avec le Slinger et les Balles de l’Œil du Lich, qui activent les synergies des armes.",
+    "unlock": "Terminer le parcours spécial du Paradoxe puis vaincre le Lich avec le Pistolero.",
+    "tips": [
+      "Très puissant avec les armes ayant de nombreuses synergies."
+    ],
     "quality": "",
     "trackable": true,
-    "priority": 2,
+    "priority": 3,
     "type": "Personnages",
-    "floor": "",
+    "floor": "Brèche",
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": true,
+    "update": "A Farewell to Arms"
   },
   {
     "id": "marine-sidearm",
@@ -176,7 +188,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "crossbow",
@@ -195,7 +208,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "budget-revolver",
@@ -214,7 +228,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "sawed-off",
@@ -233,7 +248,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blasphemy",
@@ -252,7 +268,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "robot-hand",
@@ -271,7 +288,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "pea-shooter",
@@ -290,7 +308,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "mega-douser",
@@ -309,7 +328,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "old-goldie",
@@ -328,7 +348,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "yari-launcher",
@@ -347,7 +368,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "makeshift-cannon",
@@ -366,7 +388,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "railgun",
@@ -385,7 +408,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "vulcan-cannon",
@@ -404,7 +428,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "gunther",
@@ -423,7 +448,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "gilded-hydra",
@@ -442,7 +468,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "fight-sabre",
@@ -461,7 +488,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "particulator",
@@ -480,7 +508,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "patriot",
@@ -499,7 +528,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "black-hole-gun",
@@ -518,7 +548,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "composite-gun",
@@ -537,7 +568,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "au-gun",
@@ -556,7 +588,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bait-launcher",
@@ -575,7 +608,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "barrel",
@@ -594,7 +628,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "beehive",
@@ -613,7 +648,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cactus",
@@ -632,7 +668,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "camera",
@@ -651,7 +688,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "charmed-bow",
@@ -670,7 +708,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "flame-hand",
@@ -689,7 +728,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "frost-giant",
@@ -708,26 +748,28 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "glass-cannon",
-    "name": "Canon de verre",
+    "name": "Glass Cannon",
     "category": "Armes",
     "emoji": "💎",
-    "summary": "Arme puissante mais fragile.",
-    "details": "Subir un dégât peut compromettre son utilisation.",
-    "unlock": "Trouvable pendant les parties.",
+    "summary": "Canon extrêmement puissant mais fragile.",
+    "details": "Tire un rayon chargé très puissant, mais perdre de la santé vide ses munitions.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
     "tips": [],
-    "quality": "",
+    "quality": "A",
     "trackable": true,
-    "priority": 1,
+    "priority": 2,
     "type": "Armes",
     "floor": "",
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": "A Farewell to Arms"
   },
   {
     "id": "lower-case-r",
@@ -746,7 +788,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "magic-lamp",
@@ -765,7 +808,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "machine-pistol",
@@ -784,7 +828,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "molotov-launcher",
@@ -803,7 +848,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "rubensteins-monster",
@@ -822,7 +868,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "scrambler",
@@ -841,7 +888,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "sniper-rifle",
@@ -860,7 +908,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "stinger",
@@ -879,26 +928,28 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "sunlight-javelin",
-    "name": "Javelot solaire",
+    "name": "Sunlight Javelin",
     "category": "Armes",
     "emoji": "☀️",
-    "summary": "Arme à projectile solaire.",
-    "details": "Tir puissant avec une présentation spectaculaire.",
-    "unlock": "Trouvable pendant les parties.",
+    "summary": "Javelot solaire enflammant les ennemis.",
+    "details": "Tire des javelots ardents qui infligent des dégâts sur la durée.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
     "tips": [],
-    "quality": "",
+    "quality": "B",
     "trackable": true,
-    "priority": 1,
+    "priority": 2,
     "type": "Armes",
     "floor": "",
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": "A Farewell to Arms"
   },
   {
     "id": "vertebraek-47",
@@ -917,7 +968,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "master-round",
@@ -936,7 +988,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "ammo-belt",
@@ -955,7 +1008,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "ammo-synthesizer",
@@ -974,7 +1028,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "alpha-bullet",
@@ -993,7 +1048,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "omega-bullets",
@@ -1012,7 +1068,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "backup-gun",
@@ -1031,7 +1088,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "ballistic-boots",
@@ -1050,7 +1108,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "battery-bullets",
@@ -1069,7 +1128,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bionic-leg",
@@ -1088,7 +1148,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blank-bullets",
@@ -1107,7 +1168,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blood-brooch",
@@ -1126,7 +1188,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blue-guon-stone",
@@ -1145,7 +1208,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cog-of-battle",
@@ -1164,7 +1228,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cursed-bullets",
@@ -1183,7 +1248,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "fat-bullets",
@@ -1202,7 +1268,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "ghost-bullets",
@@ -1221,7 +1288,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "helix-bullets",
@@ -1240,7 +1308,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "homing-bullets",
@@ -1259,7 +1328,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "hot-lead",
@@ -1278,7 +1348,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "irradiated-lead",
@@ -1297,7 +1368,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "laser-sight",
@@ -1316,7 +1388,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "lichy-trigger-finger",
@@ -1335,7 +1408,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "magic-sweet",
@@ -1354,7 +1428,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "metronome",
@@ -1373,7 +1448,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "platinum-bullets",
@@ -1392,7 +1468,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "scattershot",
@@ -1411,7 +1488,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shadow-bullets",
@@ -1430,7 +1508,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "silver-bullets",
@@ -1449,7 +1528,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "snowballets",
@@ -1468,7 +1548,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "stout-bullets",
@@ -1487,7 +1568,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "table-tech-sight",
@@ -1506,7 +1588,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "vorpal-bullets",
@@ -1525,7 +1608,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "wax-wings",
@@ -1544,7 +1628,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "aged-bell",
@@ -1563,7 +1648,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "air-strike",
@@ -1582,7 +1668,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bomb",
@@ -1601,7 +1688,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "boomerang",
@@ -1620,7 +1708,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "box",
@@ -1639,7 +1728,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bullet-time",
@@ -1658,7 +1748,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "busted-television",
@@ -1677,7 +1768,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "c4",
@@ -1696,7 +1788,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "chaff-grenade",
@@ -1715,7 +1808,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "charming-rounds",
@@ -1734,7 +1828,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cluster-mine",
@@ -1753,7 +1848,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "decoy",
@@ -1772,7 +1868,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "double-vision",
@@ -1791,7 +1888,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "drill",
@@ -1810,7 +1908,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "explosive-decoy",
@@ -1829,7 +1928,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "fortune-favor",
@@ -1848,7 +1948,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "grappling-hook",
@@ -1867,7 +1968,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "iron-coin",
@@ -1886,7 +1988,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "lament-configurum",
@@ -1905,7 +2008,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "lockpicks",
@@ -1924,7 +2028,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "molotov",
@@ -1943,7 +2048,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "orange",
@@ -1962,7 +2068,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "portable-table-device",
@@ -1981,7 +2088,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "relodestone",
@@ -2000,7 +2108,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "singularity",
@@ -2019,7 +2128,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "smoke-bomb",
@@ -2038,7 +2148,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "supply-drop",
@@ -2057,7 +2168,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bullet-king",
@@ -2076,7 +2188,8 @@
     "synergies": [],
     "notes": "Boss possible du Donjon du Seigneur des Balles.",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "gatling-gull",
@@ -2095,7 +2208,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "trigger-twins",
@@ -2114,7 +2228,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "ammoconda",
@@ -2133,7 +2248,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "beholster",
@@ -2152,7 +2268,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "gorgun",
@@ -2171,7 +2288,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cannonbalrog",
@@ -2190,7 +2308,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "mine-flayer",
@@ -2209,7 +2328,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "treadnaught",
@@ -2228,7 +2348,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "high-priest",
@@ -2247,7 +2368,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "kill-pillars",
@@ -2266,7 +2388,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "wallmonger",
@@ -2285,7 +2408,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "high-dragun",
@@ -2304,7 +2428,8 @@
     "synergies": [],
     "notes": "Boss principal avant la fin du parcours normal.",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blobulord",
@@ -2323,7 +2448,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "old-king",
@@ -2342,7 +2468,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "resourceful-rat",
@@ -2361,7 +2488,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "lich",
@@ -2380,7 +2508,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "bullet-kin",
@@ -2399,7 +2528,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shotgun-kin",
@@ -2418,7 +2548,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "grenade-kin",
@@ -2437,7 +2568,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "veteran-bullet-kin",
@@ -2456,7 +2588,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bandana-bullet-kin",
@@ -2475,7 +2608,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "arrow-kin",
@@ -2494,7 +2628,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bookllet",
@@ -2513,7 +2648,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "gun-nut",
@@ -2532,7 +2668,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "lead-maiden",
@@ -2551,7 +2688,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "mimic",
@@ -2570,7 +2708,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "wall-mimic",
@@ -2589,7 +2728,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "keybullet-kin",
@@ -2608,7 +2748,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "chance-kin",
@@ -2627,7 +2768,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shambling-round",
@@ -2646,7 +2788,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shelleton",
@@ -2665,7 +2808,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "blacksmith",
@@ -2684,7 +2828,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bello",
@@ -2703,7 +2848,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cadence-ox",
@@ -2722,7 +2868,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "winchester",
@@ -2741,7 +2888,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "old-red",
@@ -2760,7 +2908,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "flynt",
@@ -2779,7 +2928,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "professor-goopton",
@@ -2798,7 +2948,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "cursula",
@@ -2817,7 +2968,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "trorc",
@@ -2836,7 +2988,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "frifle-grey-mauser",
@@ -2855,7 +3008,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shortcuts-tailor",
@@ -2874,7 +3028,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "sorceress",
@@ -2893,7 +3048,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "keep",
@@ -2912,7 +3068,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "oubliette",
@@ -2931,7 +3088,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "gungeon-proper",
@@ -2950,7 +3108,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "abbey",
@@ -2969,7 +3128,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "mine",
@@ -2988,7 +3148,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "rat-lair",
@@ -3007,7 +3168,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "hollow",
@@ -3026,7 +3188,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "rng-dept",
@@ -3045,7 +3208,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": "A Farewell to Arms"
   },
   {
     "id": "forge",
@@ -3064,7 +3228,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bullet-hell",
@@ -3083,7 +3248,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "secret-room",
@@ -3102,7 +3268,8 @@
     "synergies": [],
     "notes": "Les Blancs sont la méthode la plus sûre pour ouvrir l’accès.",
     "isUnlockedByDefault": false,
-    "isSecret": true
+    "isSecret": true,
+    "update": ""
   },
   {
     "id": "past-bullet",
@@ -3121,7 +3288,8 @@
     "synergies": [],
     "notes": "Les composants remis à la Forgeronne restent validés.",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "robot-quest",
@@ -3140,7 +3308,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "bullet-quest",
@@ -3159,7 +3328,8 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
   },
   {
     "id": "shortcut-quest",
@@ -3178,6 +3348,829 @@
     "synergies": [],
     "notes": "",
     "isUnlockedByDefault": false,
-    "isSecret": false
+    "isSecret": false,
+    "update": ""
+  },
+  {
+    "id": "third-party-controller",
+    "name": "3rd Party Controller",
+    "category": "Armes",
+    "emoji": "🎮",
+    "summary": "Arme permettant de prendre le contrôle d’un ennemi.",
+    "details": "Le tir se relie à une cible et permet de la contrôler temporairement.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "chamber-gun",
+    "name": "Chamber Gun",
+    "category": "Armes",
+    "emoji": "🏛️",
+    "summary": "Arme qui change selon l’étage actuel.",
+    "details": "Sa forme et son comportement s’adaptent à la chambre visitée.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "evolver",
+    "name": "Evolver",
+    "category": "Armes",
+    "emoji": "🧬",
+    "summary": "Arme évolutive qui change après plusieurs éliminations.",
+    "details": "Elle possède six formes successives et devient progressivement plus puissante.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "fat-line",
+    "name": "The Fat Line",
+    "category": "Armes",
+    "emoji": "📏",
+    "summary": "Arme tirant depuis la cible vers le joueur.",
+    "details": "Les projectiles apparaissent près de la cible et reviennent vers l’arme, traversant les obstacles.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "finished-gun",
+    "name": "Finished Gun",
+    "category": "Armes",
+    "emoji": "🏆",
+    "summary": "Version achevée de l’Arme inachevée.",
+    "details": "La dernière balle du chargeur peut renvoyer les projectiles ennemis.",
+    "unlock": "Compléter l’Ammonomicon des armes.",
+    "tips": [],
+    "quality": "S",
+    "trackable": true,
+    "priority": 3,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "gunderfury",
+    "name": "Gunderfury",
+    "category": "Armes",
+    "emoji": "📈",
+    "summary": "Arme qui gagne de l’expérience avec les éliminations.",
+    "details": "Elle monte de niveau tous les dix niveaux et conserve son expérience entre les parties.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "gunner",
+    "name": "GuNNER",
+    "category": "Armes",
+    "emoji": "🎒",
+    "summary": "Arme capable de transformer ses munitions en soin.",
+    "details": "Subir un dégât en la tenant consomme des munitions et fait tomber un crâne guérisseur.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "high-kaliber",
+    "name": "High Kaliber",
+    "category": "Armes",
+    "emoji": "👻",
+    "summary": "Arme qui extrait l’âme des ennemis.",
+    "details": "Toucher l’âme libérée inflige de très lourds dégâts à sa cible.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "jk-47",
+    "name": "JK-47",
+    "category": "Armes",
+    "emoji": "😨",
+    "summary": "Imitation affaiblie de l’AK-47.",
+    "details": "Recharger fait fuir les ennemis proches, même s’ils continuent à tirer.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "D",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "knights-gun",
+    "name": "Knight’s Gun",
+    "category": "Armes",
+    "emoji": "⛏️",
+    "summary": "Arme qui peut creuser le sol au rechargement.",
+    "details": "Recharger un chargeur vide peut faire apparaître des ressources ou objets.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "kruller-glaive",
+    "name": "Kruller Glaive",
+    "category": "Armes",
+    "emoji": "🪃",
+    "summary": "Projectile boomerang cherchant plusieurs ennemis.",
+    "details": "Le glaive peut toucher plusieurs cibles et parfois les étourdir.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "predator",
+    "name": "The Predator",
+    "category": "Armes",
+    "emoji": "🎯",
+    "summary": "Arme technologique à verrouillage automatique.",
+    "details": "Se verrouille sur une cible puis tire un laser très rapide.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "really-special-lute",
+    "name": "Really Special Lute",
+    "category": "Armes",
+    "emoji": "🎸",
+    "summary": "Instrument qui renforce les compagnons.",
+    "details": "Les familiers deviennent plus puissants pendant que l’arme tire.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "slinger",
+    "name": "Slinger",
+    "category": "Armes",
+    "emoji": "🤠",
+    "summary": "Arme de départ du Pistolero.",
+    "details": "Au rechargement, le revolver est lancé et peut étourdir les ennemis.",
+    "unlock": "Commencer une partie avec le Pistolero.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "Brèche",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "teapot",
+    "name": "Teapot",
+    "category": "Armes",
+    "emoji": "🫖",
+    "summary": "Théière qui brûle les ennemis proches.",
+    "details": "Pendant le rechargement, les ennemis autour du joueur prennent feu.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "C",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "tetrominator",
+    "name": "Tetrominator",
+    "category": "Armes",
+    "emoji": "🧱",
+    "summary": "Arme tirant des formes de puzzle.",
+    "details": "Les pièces restent collées à la cible ; les lignes provoquent une explosion amplifiée.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "trank-gun",
+    "name": "Trank Gun",
+    "category": "Armes",
+    "emoji": "💉",
+    "summary": "Pistolet tranquillisant.",
+    "details": "Ses tirs sont conçus pour neutraliser les ennemis d’une manière inhabituelle.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "C",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "triple-gun",
+    "name": "Triple Gun",
+    "category": "Armes",
+    "emoji": "🔺",
+    "summary": "Arme possédant trois formes.",
+    "details": "Sa forme change selon la quantité de munitions restantes.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "void-core-cannon",
+    "name": "Void Core Cannon",
+    "category": "Armes",
+    "emoji": "🟣",
+    "summary": "Canon énergétique à rafales.",
+    "details": "Tire quatre grosses sphères chercheuses qui explosent à l’impact.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "windgunner",
+    "name": "Windgunner",
+    "category": "Armes",
+    "emoji": "🌪️",
+    "summary": "Transformation extrêmement puissante de Sprun.",
+    "details": "Sprun devient cette arme lorsque sa condition secrète est remplie.",
+    "unlock": "Déclencher la condition aléatoire de Sprun.",
+    "tips": [],
+    "quality": "S",
+    "trackable": true,
+    "priority": 2,
+    "type": "Armes",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": true,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "baby-good-shelleton",
+    "name": "Baby Good Shelleton",
+    "category": "Objets passifs",
+    "emoji": "💀",
+    "summary": "Petit Shelleton allié.",
+    "details": "Un familier suit le joueur et tire des lasers sur les ennemis.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "blank-bullets-farewell",
+    "name": "Blank Bullets",
+    "category": "Objets passifs",
+    "emoji": "⚪",
+    "summary": "Les impacts peuvent produire de petits Blancs.",
+    "details": "Les projectiles ont une chance d’effacer les balles proches ; augmente aussi la malédiction.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "cat-bullet-king-throne",
+    "name": "Cat Bullet King Throne",
+    "category": "Objets passifs",
+    "emoji": "🐈",
+    "summary": "Trône félin accordant le vol.",
+    "details": "Permet de voler et tire de petites balles lors des roulades.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "S",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "katana-bullets",
+    "name": "Katana Bullets",
+    "category": "Objets passifs",
+    "emoji": "⚔️",
+    "summary": "Les éliminations peuvent déclencher une rafale de lames.",
+    "details": "Les coups finaux ont une chance de créer des entailles sur le trajet du projectile.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "lichs-eye-bullets",
+    "name": "Lich’s Eye Bullets",
+    "category": "Objets passifs",
+    "emoji": "👁️",
+    "summary": "Active les synergies des armes.",
+    "details": "Les armes se comportent comme si tous leurs objets de synergie étaient possédés.",
+    "unlock": "Objet de départ du Pistolero.",
+    "tips": [],
+    "quality": "S",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "magazine-rack",
+    "name": "Magazine Rack",
+    "category": "Objets actifs",
+    "emoji": "📚",
+    "summary": "Crée une zone de munitions infinies.",
+    "details": "Tant que le joueur reste dans la zone, tirer ne consomme pas de munitions.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets actifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "orbital-bullets",
+    "name": "Orbital Bullets",
+    "category": "Objets passifs",
+    "emoji": "🪐",
+    "summary": "Les tirs manqués se mettent à orbiter autour du joueur.",
+    "details": "Les projectiles qui n’ont rien touché deviennent une protection offensive.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "scouter",
+    "name": "Scouter",
+    "category": "Objets passifs",
+    "emoji": "📟",
+    "summary": "Affiche la santé ennemie et les dégâts infligés.",
+    "details": "Améliore aussi la précision et les dégâts, au prix d’un peu de malédiction.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "shadow-clone",
+    "name": "Shadow Clone",
+    "category": "Objets actifs",
+    "emoji": "🥷",
+    "summary": "Crée une copie inversée du joueur.",
+    "details": "Le clone reproduit les déplacements en miroir et tire en même temps.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets actifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "sprun",
+    "name": "Sprun",
+    "category": "Objets passifs",
+    "emoji": "🌱",
+    "summary": "Petit compagnon à condition secrète.",
+    "details": "Bloque les projectiles puis peut se transformer en Windgunner lorsqu’une condition cachée survient.",
+    "unlock": "Jouer plus de six parties après l’installation de la mise à jour.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": true,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "table-tech-heat",
+    "name": "Table Tech Heat",
+    "category": "Objets passifs",
+    "emoji": "🔥",
+    "summary": "Retourner une table embrase une grande zone.",
+    "details": "Les ennemis proches de la table renversée prennent feu.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "C",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "table-tech-shotgun",
+    "name": "Table Tech Shotgun",
+    "category": "Objets passifs",
+    "emoji": "🪑",
+    "summary": "Retourner une table déclenche un tir de fusil chercheur.",
+    "details": "Chaque table utilisée libère une salve poursuivant les ennemis.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "B",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "ticket",
+    "name": "Ticket",
+    "category": "Objets actifs",
+    "emoji": "🎟️",
+    "summary": "Invoque la Mouette Gatling comme alliée.",
+    "details": "La Mouette Gatling combat temporairement aux côtés du joueur.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets actifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "turtle-problem",
+    "name": "Turtle Problem",
+    "category": "Objets passifs",
+    "emoji": "🐢",
+    "summary": "Les salles terminées peuvent créer des tortues alliées.",
+    "details": "Les tortues bloquent les projectiles ennemis jusqu’à leur destruction.",
+    "unlock": "Disponible dans la mise à jour A Farewell to Arms.",
+    "tips": [],
+    "quality": "A",
+    "trackable": true,
+    "priority": 2,
+    "type": "Objets passifs",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "rainbow-mode",
+    "name": "Mode Arc-en-ciel",
+    "category": "Modes",
+    "emoji": "🌈",
+    "summary": "Mode où un coffre arc-en-ciel apparaît à chaque étage.",
+    "details": "Le joueur ne peut choisir qu’un objet parmi les offres et les autres récompenses classiques sont fortement limitées.",
+    "unlock": "Libérer Bowler puis lui parler dans la Brèche.",
+    "tips": [
+      "Choisis un objet qui complète ton équipement plutôt que seulement le plus rare."
+    ],
+    "quality": "",
+    "trackable": true,
+    "priority": 3,
+    "type": "Modes",
+    "floor": "Brèche",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "bowler",
+    "name": "Bowler",
+    "category": "PNJ",
+    "emoji": "🌈",
+    "summary": "PNJ qui active le Mode Arc-en-ciel.",
+    "details": "Une fois libéré, il attend dans la Brèche et permet de lancer une partie spéciale.",
+    "unlock": "Libérer Bowler dans le Gungeon.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 3,
+    "type": "PNJ",
+    "floor": "Brèche",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "beholster-shrine",
+    "name": "Autel du Beholster",
+    "category": "Autels",
+    "emoji": "👁️",
+    "summary": "Nouvel autel lié aux armes du Beholster.",
+    "details": "Il propose une interaction spéciale lorsque certaines armes sont apportées.",
+    "unlock": "Trouver l’autel du Beholster dans une salle spéciale.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 2,
+    "type": "Autels",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": true,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "rng-dept-farewell",
+    "name": "Département R&G",
+    "category": "Étages secrets",
+    "emoji": "🏢",
+    "summary": "Nouvel étage secret de la mise à jour.",
+    "details": "Zone industrielle remplie d’ennemis uniques qui ne figurent pas dans l’Ammonomicon.",
+    "unlock": "Accéder à l’entrée spéciale depuis le Hollow.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 3,
+    "type": "Étages secrets",
+    "floor": "Après le Hollow",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": true,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "agunim",
+    "name": "Agunim",
+    "category": "Boss secrets",
+    "emoji": "🧙",
+    "summary": "Boss unique du Département R&G.",
+    "details": "Protège la sortie du nouvel étage secret et utilise des attaques magiques et industrielles.",
+    "unlock": "Atteindre la fin du Département R&G.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 3,
+    "type": "Boss secrets",
+    "floor": "Département R&G",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": true,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "pet-the-dog",
+    "name": "Caresser le chien",
+    "category": "Fonctionnalités",
+    "emoji": "🐕",
+    "summary": "La mise à jour permet enfin de caresser le chien de la Chasseresse.",
+    "details": "Approche-toi du chien et utilise l’interaction pour lui faire une caresse.",
+    "unlock": "Jouer avec la Chasseresse.",
+    "tips": [],
+    "quality": "",
+    "trackable": false,
+    "priority": 1,
+    "type": "Fonctionnalités",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
+  },
+  {
+    "id": "alternate-starter-skins",
+    "name": "Apparences alternatives des armes de départ",
+    "category": "Fonctionnalités",
+    "emoji": "🎨",
+    "summary": "De nouvelles apparences peuvent être débloquées pour les armes initiales.",
+    "details": "Terminer le Passé avec le costume alternatif du personnage déverrouille l’apparence correspondante.",
+    "unlock": "Vaincre le Passé d’un personnage avec son costume alternatif.",
+    "tips": [],
+    "quality": "",
+    "trackable": true,
+    "priority": 2,
+    "type": "Fonctionnalités",
+    "floor": "",
+    "synergies": [],
+    "notes": "",
+    "isUnlockedByDefault": false,
+    "isSecret": false,
+    "update": "A Farewell to Arms"
   }
 ]

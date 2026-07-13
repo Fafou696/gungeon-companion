@@ -1,18 +1,27 @@
-GUNGEON COMPANION — CORRECTIF V6.1
+GUNGEON COMPANION — V6.2 A FAREWELL TO ARMS
 
-PROBLÈME CORRIGÉ
-La v6 affichait 0 fiche lorsque le dossier data n’était pas correctement envoyé sur GitHub.
+NOUVEAUTÉS
+- page spéciale A Farewell to Arms
+- 22 armes de la mise à jour
+- 14 objets de la mise à jour
+- Le Paradoxe et le Pistolero
+- Mode Arc-en-ciel et Bowler
+- Département R&G et Agunim
+- Autel du Beholster
+- apparences alternatives des armes de départ
+- possibilité de caresser le chien
+- filtre par mise à jour dans le Guide
+- données intégrées de secours pour éviter l’écran à zéro
+- version affichée : v6.2
 
-La v6.1 contient maintenant une copie intégrée des 167 fiches dans app.js.
-Même si le dossier data manque, l’application fonctionne.
+TOTAL DE FICHES : 208
 
 INSTALLATION
 1. Décompresse le ZIP.
 2. Dans GitHub : Add file > Upload files.
-3. Sélectionne tous les fichiers visibles.
-4. Le dossier data peut aussi être envoyé, mais il n’est plus obligatoire.
-5. Commit changes.
-6. Attends 1 à 3 minutes.
-7. Ouvre le lien dans Safari et actualise.
-8. Ferme complètement l’application installée puis rouvre-la.
-9. Vérifie que la ligne indique v6.1 et 167 fiches.
+3. Sélectionne tous les fichiers et le dossier data.
+4. Commit changes.
+5. Attends 1 à 3 minutes.
+6. Ouvre le lien dans Safari et actualise.
+7. Ferme complètement l’application puis rouvre-la.
+8. Vérifie que l’application affiche v6.2.

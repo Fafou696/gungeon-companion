@@ -69,7 +69,8 @@
     "emoji": "🏢",
     "parent": "hollow",
     "secret": true,
-    "summary": "Étage secret industriel."
+    "summary": "Étage secret ajouté par A Farewell to Arms, avec Agunim comme boss.",
+    "update": "A Farewell to Arms"
   },
   {
     "id": "forge",

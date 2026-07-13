@@ -62,6 +62,7 @@
       <div class="filters">
         <select id="qualityFilter"></select>
         <select id="statusFilter"><option>Tous</option><option>Restants</option><option>Terminés</option></select>
+        <select id="updateFilter"><option value="Toutes">Toutes les mises à jour</option><option value="A Farewell to Arms">A Farewell to Arms</option></select>
       </div>
       <div id="categories" class="chips"></div>
       <section id="list" class="list"></section>
@@ -105,6 +106,22 @@
     </section>
   </section>
 
+
+  <section data-view="farewell" hidden>
+    <section class="farewell-hero">
+      <div class="eyebrow">MISE À JOUR FINALE</div>
+      <h2>🔫 A Farewell to Arms</h2>
+      <p>Sortie le 5 avril 2019 : deux personnages secrets, de nouvelles armes et objets, le Mode Arc-en-ciel et le Département R&G.</p>
+      <div id="farewellStats" class="farewell-stats"></div>
+    </section>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">CONTENU</div><h3>Nouveautés de la mise à jour</h3></div>
+      </div>
+      <section id="farewellList" class="list"></section>
+    </section>
+  </section>
+
   <section data-view="stats" hidden>
     <section class="section-block">
       <div class="section-title"><div><div class="eyebrow">STATISTIQUES</div><h3>📊 Progression par catégorie</h3></div></div>
@@ -129,6 +146,7 @@
   <button data-target="remaining" onclick="setView('remaining')"><b>🎯</b><span>À faire</span></button>
   <button data-target="map" onclick="setView('map')"><b>🗺️</b><span>Carte</span></button>
   <button data-target="journal" onclick="setView('journal')"><b>📖</b><span>Journal</span></button>
+  <button data-target="farewell" onclick="setView('farewell')"><b>🌈</b><span>Farewell</span></button>
   <button data-target="stats" onclick="setView('stats')"><b>📊</b><span>Stats</span></button>
 </nav>
 
