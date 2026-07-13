@@ -1,0 +1,90 @@
+[
+  {
+    "id": "breach",
+    "name": "La Brèche",
+    "emoji": "🏠",
+    "parent": null,
+    "secret": false,
+    "summary": "Zone centrale avant chaque partie."
+  },
+  {
+    "id": "keep",
+    "name": "Donjon du Seigneur des Balles",
+    "emoji": "🏰",
+    "parent": "breach",
+    "secret": false,
+    "summary": "Premier étage principal."
+  },
+  {
+    "id": "oubliette",
+    "name": "Oubliette",
+    "emoji": "🕳️",
+    "parent": "keep",
+    "secret": true,
+    "summary": "Étage secret accessible depuis le premier étage."
+  },
+  {
+    "id": "gungeon-proper",
+    "name": "Gungeon Proper",
+    "emoji": "🕯️",
+    "parent": "keep",
+    "secret": false,
+    "summary": "Deuxième étage principal."
+  },
+  {
+    "id": "abbey",
+    "name": "Abbaye du Vrai Fusil",
+    "emoji": "⛪",
+    "parent": "gungeon-proper",
+    "secret": true,
+    "summary": "Étage secret lié à l’Ancien Blason."
+  },
+  {
+    "id": "mine",
+    "name": "Mine de Poudre Noire",
+    "emoji": "⛏️",
+    "parent": "gungeon-proper",
+    "secret": false,
+    "summary": "Troisième étage principal."
+  },
+  {
+    "id": "rat-lair",
+    "name": "Repaire du Rat Ingénieux",
+    "emoji": "🐀",
+    "parent": "mine",
+    "secret": true,
+    "summary": "Étage secret du Rat Ingénieux."
+  },
+  {
+    "id": "hollow",
+    "name": "Hollow",
+    "emoji": "❄️",
+    "parent": "mine",
+    "secret": false,
+    "summary": "Quatrième étage principal."
+  },
+  {
+    "id": "rng-dept",
+    "name": "Département R&G",
+    "emoji": "🏢",
+    "parent": "hollow",
+    "secret": true,
+    "summary": "Étage secret industriel."
+  },
+  {
+    "id": "forge",
+    "name": "Forge",
+    "emoji": "🔥",
+    "parent": "hollow",
+    "secret": false,
+    "summary": "Cinquième étage principal."
+  },
+  {
+    "id": "bullet-hell",
+    "name": "Bullet Hell",
+    "emoji": "☠️",
+    "parent": "forge",
+    "secret": true,
+    "summary": "Zone finale très difficile."
+  }
+]

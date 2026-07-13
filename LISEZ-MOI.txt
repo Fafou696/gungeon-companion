@@ -1,24 +1,18 @@
-GUNGEON COMPANION — MISE À JOUR V6
+GUNGEON COMPANION — CORRECTIF V6.1
 
-NOUVEAUTÉS
-- données du guide séparées dans data/guide.json
-- carte des étages dans data/floors.json
-- page Carte
-- journal de parties
-- notes personnelles sur chaque fiche
-- export/import incluant progression, favoris, notes et journal
-- architecture plus simple à mettre à jour
-- version affichée : v6.0
+PROBLÈME CORRIGÉ
+La v6 affichait 0 fiche lorsque le dossier data n’était pas correctement envoyé sur GitHub.
+
+La v6.1 contient maintenant une copie intégrée des 167 fiches dans app.js.
+Même si le dossier data manque, l’application fonctionne.
 
 INSTALLATION
 1. Décompresse le ZIP.
-2. Sur GitHub : Add file > Upload files.
-3. Sélectionne tous les fichiers ET le dossier data.
-4. Commit changes.
-5. Attends 1 à 3 minutes.
-6. Ouvre le lien dans Safari et actualise.
-7. Ferme complètement l’application installée.
-8. Rouvre l’application.
-
-IMPORTANT
-Le dossier data doit bien apparaître sur GitHub avec guide.json et floors.json.
+2. Dans GitHub : Add file > Upload files.
+3. Sélectionne tous les fichiers visibles.
+4. Le dossier data peut aussi être envoyé, mais il n’est plus obligatoire.
+5. Commit changes.
+6. Attends 1 à 3 minutes.
+7. Ouvre le lien dans Safari et actualise.
+8. Ferme complètement l’application installée puis rouvre-la.
+9. Vérifie que la ligne indique v6.1 et 167 fiches.
