@@ -1,30 +1,20 @@
-GUNGEON COMPANION — MISE À JOUR V2
+GUNGEON COMPANION — MISE À JOUR V3
 
 Cette version contient 167 fiches et ajoute :
-- beaucoup plus d’armes, objets, boss, monstres, PNJ et étages
-- export de progression
-- import de progression
-- cache v2 pour forcer la mise à jour de l’application installée
-- tri alphabétique
+- tableau de bord de progression par catégorie
+- prochain objectif recommandé
+- filtre par qualité
+- filtre Tous / Restants / Terminés
+- qualité affichée dans les listes et les fiches
+- cache v3 pour forcer la mise à jour
+- export/import toujours disponible
 
-MISE À JOUR SUR GITHUB
-1. Décompresse cette archive.
-2. Dans ton dépôt GitHub, clique Add file > Upload files.
-3. Glisse TOUS les fichiers de ce dossier.
-4. GitHub indiquera que les fichiers existants seront remplacés.
-5. Clique Commit changes.
-6. Attends environ 1 à 3 minutes.
-
-SUR L’IPHONE
-1. Ferme complètement Gungeon Companion.
-2. Ouvre d’abord le lien dans Safari :
-   https://fafou696.github.io/gungeon-companion/
-3. Actualise la page.
-4. Ferme Safari puis rouvre l’application depuis son icône.
-5. La ligne de progression doit afficher v2.0.
-
-Sources générales utilisées pour structurer les catégories :
-- Enter the Gungeon Wiki (Fandom)
-- Official Enter the Gungeon Wiki (wiki.gg)
-
-Les descriptions sont reformulées et l’application reste non officielle.
+MISE À JOUR
+1. Décompresse le ZIP.
+2. Dans GitHub : Add file > Upload files.
+3. Sélectionne tous les fichiers.
+4. Commit changes.
+5. Attends 1 à 3 minutes.
+6. Ouvre le lien dans Safari et actualise.
+7. Ferme puis rouvre l’app.
+8. Vérifie que la progression affiche v3.0.

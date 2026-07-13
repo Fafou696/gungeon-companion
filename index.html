@@ -30,9 +30,28 @@
     <div class="small" id="progressCount"></div>
   </section>
 
+  <section class="card">
+    <div class="section-head"><strong>🎯 Prochain objectif</strong></div>
+    <div id="recommendation"></div>
+  </section>
+
   <input id="search" class="search" placeholder="Rechercher une arme, un boss, un secret…">
 
+  <div class="filters">
+    <select id="qualityFilter"></select>
+    <select id="statusFilter">
+      <option>Tous</option>
+      <option>Restants</option>
+      <option>Terminés</option>
+    </select>
+  </div>
+
   <div id="categories" class="chips"></div>
+
+  <section class="card">
+    <div class="section-head"><strong>📊 Progression par catégorie</strong></div>
+    <div id="categoryProgress"></div>
+  </section>
 
   <div class="section-head">
     <strong>Guide</strong>
