@@ -1,25 +1,38 @@
-GUNGEON COMPANION — V8.1 INTERFACE
+GUNGEON COMPANION — V8.2 COMPLÈTE
 
-Cette mise à jour modifie réellement l’application :
-- interface sombre inspirée de la maquette
-- nouvel accueil avec raccourcis fonctionnels
-- listes d’armes plus compactes et plus lisibles
-- fiches détaillées avec bloc Qualité / Étage / Mise à jour / Statut
-- nouvelle page Synergies (uniquement les données réellement enregistrées)
-- progression visible dans l’en-tête
-- navigation simplifiée
-- galerie de pictogrammes conservée
-- favoris, À chercher, carte, journal et sauvegarde conservés
-- version affichée : v8.1
+Cette archive est simplifiée pour GitHub :
+- aucun dossier data
+- aucun dossier boards
+- aucun fichier pictograms.js
+- toutes les données sont déjà intégrées dans app.js
+- armes.png et objets.png sont directement à la racine
+- version réellement affichée : v8.2
 
-Les fonctions Scanner IA, assistant en ligne et sauvegarde cloud ne sont pas annoncées
-dans l’application, car elles ne sont pas réellement disponibles dans cette PWA hors ligne.
+FICHIERS À ENVOYER SUR GITHUB
+- index.html
+- styles.css
+- app.js
+- sw.js
+- manifest.webmanifest
+- icon-192.png
+- icon-512.png
+- armes.png
+- objets.png
+- LISEZ-MOI.txt
 
 INSTALLATION
-1. Décompresse le ZIP.
-2. Sur GitHub : Add file > Upload files.
-3. Sélectionne tous les fichiers et le dossier data.
-4. Commit changes.
-5. Attends 2 à 5 minutes.
-6. Actualise le site dans Safari.
-7. Ferme complètement l’application et rouvre-la.
+1. Décompresse ce ZIP.
+2. Dans GitHub, ouvre le dépôt gungeon-companion.
+3. Add file > Upload files.
+4. Sélectionne TOUS les fichiers du dossier décompressé.
+5. Commit changes.
+6. Attends la coche verte dans Actions / Deployments.
+7. Ouvre :
+   https://fafou696.github.io/gungeon-companion/
+8. Sur iPhone, recharge la page.
+9. Si v8.1 reste affiché, supprime l’ancienne icône de l’écran d’accueil,
+   efface les données du site fafou696.github.io dans Safari, puis réinstalle l’app.
+
+VÉRIFICATION
+Dans GitHub, ouvre app.js. La ligne 2 doit afficher :
+const APP_VERSION = '8.2';

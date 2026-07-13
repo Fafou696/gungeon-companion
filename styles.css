@@ -676,3 +676,31 @@ nav button.active b,nav button.active span{color:#ffb000}
   .mini{width:32px;height:32px}
   .header-progress span{display:none}
 }
+
+/* V8.2 — vraies planches fournies par l’utilisateur */
+.reference-boards{display:grid;gap:14px}
+.reference-board{
+  padding:12px;border-radius:14px;background:#111720;border:1px solid #303b48
+}
+.reference-board h4{margin:0 0 10px;color:#ffb000}
+.reference-board img{
+  display:block;width:100%;height:auto;border-radius:10px;
+  image-rendering:pixelated;background:#000
+}
+.board-tabs{display:flex;gap:8px;margin:12px 0}
+.board-tab{
+  flex:1;padding:11px;border-radius:11px;border:1px solid #34404e;
+  background:#151c25;color:#d8dee6;font-weight:800
+}
+.board-tab.active{
+  color:#111;background:linear-gradient(135deg,#ffb000,#ff8b19);border-color:transparent
+}
+.board-picker-scroll{
+  max-height:68vh;overflow:auto;border-radius:14px;
+  border:1px solid #34404e;background:#050608;padding:8px;
+  -webkit-overflow-scrolling:touch
+}
+.board-picker-scroll img{
+  display:block;width:100%;min-width:620px;height:auto;
+  image-rendering:pixelated;cursor:crosshair
+}

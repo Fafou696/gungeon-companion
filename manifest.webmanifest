@@ -1,7 +1,7 @@
 {
   "name": "Gungeon Companion",
   "short_name": "Gungeon",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#080808",
   "theme_color": "#080808",
@@ -16,5 +16,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "scope": "./"
 }
