@@ -122,6 +122,28 @@
     </section>
   </section>
 
+
+  <section data-view="wanted" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">MA LISTE</div><h3>🔎 À chercher</h3></div>
+        <span id="wantedCount"></span>
+      </div>
+      <section id="wantedList" class="list"></section>
+    </section>
+  </section>
+
+  <section data-view="pictograms" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">TES CAPTURES</div><h3>🖼️ Bibliothèque de pictogrammes</h3></div>
+        <span id="pictogramTotal"></span>
+      </div>
+      <p class="small">Ouvre une fiche puis touche « Choisir le pictogramme » pour lui attribuer la bonne image.</p>
+      <div id="pictogramGallery" class="pictogram-gallery"></div>
+    </section>
+  </section>
+
   <section data-view="stats" hidden>
     <section class="section-block">
       <div class="section-title"><div><div class="eyebrow">STATISTIQUES</div><h3>📊 Progression par catégorie</h3></div></div>
@@ -147,6 +169,8 @@
   <button data-target="map" onclick="setView('map')"><b>🗺️</b><span>Carte</span></button>
   <button data-target="journal" onclick="setView('journal')"><b>📖</b><span>Journal</span></button>
   <button data-target="farewell" onclick="setView('farewell')"><b>🌈</b><span>Farewell</span></button>
+  <button data-target="wanted" onclick="setView('wanted')"><b>⌕</b><span>À chercher</span></button>
+  <button data-target="pictograms" onclick="setView('pictograms')"><b>🖼️</b><span>Images</span></button>
   <button data-target="stats" onclick="setView('stats')"><b>📊</b><span>Stats</span></button>
 </nav>
 
@@ -160,5 +184,16 @@
 </div>
 
 <script src="app.js"></script>
+
+<div id="iconPicker" class="icon-picker">
+  <div class="icon-picker-sheet">
+    <button class="close" onclick="closeIconPicker()">✕</button>
+    <div class="eyebrow">PICTOGRAMMES FOURNIS</div>
+    <h2>Choisis l’image correspondante</h2>
+    <div id="iconPickerGrid" class="pictogram-gallery picker-grid"></div>
+  </div>
+</div>
+
+<script src="pictograms.js"></script>
 </body>
 </html>
