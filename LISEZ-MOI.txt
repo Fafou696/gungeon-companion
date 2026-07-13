@@ -1,0 +1,30 @@
+GUNGEON COMPANION — FICHIERS COMPLETS
+
+CONTENU DU DOSSIER
+- index.html
+- styles.css
+- app.js
+- manifest.webmanifest
+- sw.js
+- icon-192.png
+- icon-512.png
+
+MISE SUR GITHUB
+1. Décompresse le fichier ZIP.
+2. Ouvre ton dépôt GitHub gungeon-companion.
+3. Clique sur Add file > Upload files.
+4. Glisse TOUS les fichiers ci-dessus dans GitHub.
+5. Clique sur Commit changes.
+6. Va dans Settings > Pages.
+7. Source : Deploy from a branch.
+8. Branche : main.
+9. Dossier : /root.
+10. Enregistre.
+
+INSTALLATION SUR IPHONE
+1. Ouvre le lien GitHub Pages dans Safari.
+2. Appuie sur Partager.
+3. Choisis Sur l’écran d’accueil.
+4. Ouvre l’icône Gungeon Companion.
+
+La progression et les favoris restent enregistrés sur l’iPhone.
