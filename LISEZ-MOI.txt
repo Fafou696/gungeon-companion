@@ -1,22 +1,24 @@
-GUNGEON COMPANION — MISE À JOUR V5
+GUNGEON COMPANION — MISE À JOUR V6
 
 NOUVEAUTÉS
-- vraie navigation par pages
-- page Accueil
-- page Guide
-- page Favoris
-- page À débloquer
-- page Statistiques
-- fiches plus riches avec étage et indicateur Secret
-- meilleure gestion de l’export/import
-- version affichée : v5.0
+- données du guide séparées dans data/guide.json
+- carte des étages dans data/floors.json
+- page Carte
+- journal de parties
+- notes personnelles sur chaque fiche
+- export/import incluant progression, favoris, notes et journal
+- architecture plus simple à mettre à jour
+- version affichée : v6.0
 
 INSTALLATION
 1. Décompresse le ZIP.
 2. Sur GitHub : Add file > Upload files.
-3. Sélectionne tous les fichiers.
+3. Sélectionne tous les fichiers ET le dossier data.
 4. Commit changes.
 5. Attends 1 à 3 minutes.
 6. Ouvre le lien dans Safari et actualise.
 7. Ferme complètement l’application installée.
 8. Rouvre l’application.
+
+IMPORTANT
+Le dossier data doit bien apparaître sur GitHub avec guide.json et floors.json.
