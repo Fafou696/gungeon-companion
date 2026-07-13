@@ -1,27 +1,25 @@
-GUNGEON COMPANION — V6.2 A FAREWELL TO ARMS
+GUNGEON COMPANION — VERSION 7 ILLUSTRÉE
 
 NOUVEAUTÉS
-- page spéciale A Farewell to Arms
-- 22 armes de la mise à jour
-- 14 objets de la mise à jour
-- Le Paradoxe et le Pistolero
-- Mode Arc-en-ciel et Bowler
-- Département R&G et Agunim
-- Autel du Beholster
-- apparences alternatives des armes de départ
-- possibilité de caresser le chien
-- filtre par mise à jour dans le Guide
-- données intégrées de secours pour éviter l’écran à zéro
-- version affichée : v6.2
+- 208 illustrations originales en style pixel
+- une image différente pour chaque fiche
+- images dans les listes
+- grande image dans les fiches détaillées
+- fonctionnement hors ligne
+- emoji de secours si une image ne charge pas
+- version affichée : v7.0
 
-TOTAL DE FICHES : 208
+IMPORTANT
+Ces dessins sont des illustrations originales générées pour ton application.
+Ce ne sont pas les sprites officiels du jeu, ce qui évite les problèmes de droits
+et permet de partager gratuitement l’application avec tes amis.
 
 INSTALLATION
 1. Décompresse le ZIP.
 2. Dans GitHub : Add file > Upload files.
-3. Sélectionne tous les fichiers et le dossier data.
+3. Sélectionne TOUS les fichiers ET les dossiers data et images.
 4. Commit changes.
-5. Attends 1 à 3 minutes.
+5. Attends 2 à 5 minutes, car il y a plus de 200 images.
 6. Ouvre le lien dans Safari et actualise.
 7. Ferme complètement l’application puis rouvre-la.
-8. Vérifie que l’application affiche v6.2.
+8. Vérifie que la version indique v7.0.
