@@ -12,6 +12,7 @@
 <title>Gungeon Companion</title>
 </head>
 <body>
+<input type="file" id="importFile" accept="application/json" hidden>
 <header>
   <h1>🔫 Gungeon Companion</h1>
   <div class="subtitle">Guide hors ligne · favoris · progression</div>
@@ -45,6 +46,8 @@
   <button onclick="setCategory('Toutes')"><b>🏠</b>Accueil</button>
   <button onclick="document.querySelector('#search').focus()"><b>🔎</b>Recherche</button>
   <button onclick="showFavorites()"><b>⭐</b>Favoris</button>
+  <button onclick="exportProgress()"><b>📤</b>Exporter</button>
+  <button onclick="importProgress()"><b>📥</b>Importer</button>
   <button onclick="resetAll()"><b>♻️</b>Effacer</button>
 </nav>
 

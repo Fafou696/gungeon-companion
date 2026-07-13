@@ -1,30 +1,30 @@
-GUNGEON COMPANION — FICHIERS COMPLETS
+GUNGEON COMPANION — MISE À JOUR V2
 
-CONTENU DU DOSSIER
-- index.html
-- styles.css
-- app.js
-- manifest.webmanifest
-- sw.js
-- icon-192.png
-- icon-512.png
+Cette version contient 167 fiches et ajoute :
+- beaucoup plus d’armes, objets, boss, monstres, PNJ et étages
+- export de progression
+- import de progression
+- cache v2 pour forcer la mise à jour de l’application installée
+- tri alphabétique
 
-MISE SUR GITHUB
-1. Décompresse le fichier ZIP.
-2. Ouvre ton dépôt GitHub gungeon-companion.
-3. Clique sur Add file > Upload files.
-4. Glisse TOUS les fichiers ci-dessus dans GitHub.
-5. Clique sur Commit changes.
-6. Va dans Settings > Pages.
-7. Source : Deploy from a branch.
-8. Branche : main.
-9. Dossier : /root.
-10. Enregistre.
+MISE À JOUR SUR GITHUB
+1. Décompresse cette archive.
+2. Dans ton dépôt GitHub, clique Add file > Upload files.
+3. Glisse TOUS les fichiers de ce dossier.
+4. GitHub indiquera que les fichiers existants seront remplacés.
+5. Clique Commit changes.
+6. Attends environ 1 à 3 minutes.
 
-INSTALLATION SUR IPHONE
-1. Ouvre le lien GitHub Pages dans Safari.
-2. Appuie sur Partager.
-3. Choisis Sur l’écran d’accueil.
-4. Ouvre l’icône Gungeon Companion.
+SUR L’IPHONE
+1. Ferme complètement Gungeon Companion.
+2. Ouvre d’abord le lien dans Safari :
+   https://fafou696.github.io/gungeon-companion/
+3. Actualise la page.
+4. Ferme Safari puis rouvre l’application depuis son icône.
+5. La ligne de progression doit afficher v2.0.
 
-La progression et les favoris restent enregistrés sur l’iPhone.
+Sources générales utilisées pour structurer les catégories :
+- Enter the Gungeon Wiki (Fandom)
+- Official Enter the Gungeon Wiki (wiki.gg)
+
+Les descriptions sont reformulées et l’application reste non officielle.
