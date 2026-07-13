@@ -23,99 +23,98 @@
   </div>
 </header>
 
+
 <main>
-  <section class="hero">
-    <div class="hero-glow"></div>
-    <div class="hero-content">
-      <div class="eyebrow">ASSISTANT DE PROGRESSION</div>
-      <h2>Maîtrise le Gungeon</h2>
-      <p>Retrouve les armes, objets, boss, secrets et objectifs qu’il te reste à terminer.</p>
-      <div class="hero-stats">
-        <div>
-          <span id="progressText">0 %</span>
-          <small>Progression</small>
+  <section data-view="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <div class="eyebrow">ASSISTANT DE PROGRESSION</div>
+        <h2>Maîtrise le Gungeon</h2>
+        <p>Retrouve les armes, objets, boss, secrets et objectifs qu’il te reste à terminer.</p>
+        <div class="hero-stats four">
+          <div><span id="progressText">0 %</span><small>Progression</small></div>
+          <div><span id="totalEntriesHero">0</span><small>Fiches</small></div>
+          <div><span id="favoriteCountHero">0</span><small>Favoris</small></div>
+          <div><span id="remainingCountHero">0</span><small>Restants</small></div>
         </div>
-        <div>
-          <span id="totalEntriesHero">0</span>
-          <small>Fiches</small>
-        </div>
-        <div>
-          <span id="favoriteCountHero">0</span>
-          <small>Favoris</small>
-        </div>
+        <div class="progress-track hero-track"><div class="progress-fill" id="progressBar"></div></div>
+        <div class="small" id="progressCount"></div>
       </div>
-      <div class="progress-track hero-track">
-        <div class="progress-fill" id="progressBar"></div>
-      </div>
-      <div class="small" id="progressCount"></div>
-    </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-title"><div><div class="eyebrow">RECOMMANDATION</div><h3>🎯 Prochain objectif</h3></div></div>
+      <div id="recommendation"></div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-title"><div><div class="eyebrow">EXPLORER</div><h3>Catégories</h3></div></div>
+      <div id="categoryCards" class="category-grid"></div>
+    </section>
   </section>
 
-  <section class="section-block">
-    <div class="section-title">
-      <div>
-        <div class="eyebrow">RECOMMANDATION</div>
-        <h3>🎯 Prochain objectif</h3>
+  <section data-view="guide" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">RECHERCHE</div><h3>Tout le guide</h3></div>
+        <span id="resultCount"></span>
       </div>
-    </div>
-    <div id="recommendation"></div>
+      <div class="search-wrap"><span>🔎</span><input id="search" class="search" placeholder="Arme, objet, boss, secret…"></div>
+      <div class="filters">
+        <select id="qualityFilter"></select>
+        <select id="statusFilter">
+          <option>Tous</option><option>Restants</option><option>Terminés</option>
+        </select>
+      </div>
+      <div id="categories" class="chips"></div>
+      <section id="list" class="list"></section>
+    </section>
   </section>
 
-  <section class="section-block">
-    <div class="section-title">
-      <div>
-        <div class="eyebrow">EXPLORER</div>
-        <h3>Catégories</h3>
+  <section data-view="favorites" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">COLLECTION</div><h3>⭐ Favoris</h3></div>
+        <span id="favoritesCount"></span>
       </div>
-    </div>
-    <div id="categoryCards" class="category-grid"></div>
+      <section id="favoritesList" class="list"></section>
+    </section>
   </section>
 
-  <section class="section-block">
-    <div class="section-title">
-      <div>
-        <div class="eyebrow">RECHERCHE</div>
-        <h3>Tout le guide</h3>
+  <section data-view="remaining" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">OBJECTIFS</div><h3>🎯 À débloquer</h3></div>
+        <span id="remainingCount"></span>
       </div>
-      <span id="resultCount"></span>
-    </div>
-
-    <div class="search-wrap">
-      <span>🔎</span>
-      <input id="search" class="search" placeholder="Arme, objet, boss, secret…">
-    </div>
-
-    <div class="filters">
-      <select id="qualityFilter"></select>
-      <select id="statusFilter">
-        <option>Tous</option>
-        <option>Restants</option>
-        <option>Terminés</option>
-      </select>
-    </div>
-
-    <div id="categories" class="chips"></div>
-    <section id="list" class="list"></section>
+      <section id="remainingList" class="list"></section>
+    </section>
   </section>
 
-  <section class="section-block">
-    <div class="section-title">
-      <div>
-        <div class="eyebrow">STATISTIQUES</div>
-        <h3>Progression par catégorie</h3>
+  <section data-view="stats" hidden>
+    <section class="section-block">
+      <div class="section-title"><div><div class="eyebrow">STATISTIQUES</div><h3>📊 Progression par catégorie</h3></div></div>
+      <div id="categoryProgress"></div>
+      <div class="settings-actions">
+        <button onclick="exportProgress()">📤 Exporter la progression</button>
+        <button onclick="importProgress()">📥 Importer une progression</button>
+        <button class="danger" onclick="resetAll()">♻️ Tout réinitialiser</button>
       </div>
-    </div>
-    <div id="categoryProgress"></div>
+    </section>
   </section>
 </main>
 
+
+
 <nav>
-  <button onclick="setCategory('Toutes')" aria-label="Accueil"><b>🏠</b><span>Accueil</span></button>
-  <button onclick="document.querySelector('#search').focus()" aria-label="Recherche"><b>🔎</b><span>Recherche</span></button>
-  <button onclick="showFavorites()" aria-label="Favoris"><b>⭐</b><span>Favoris</span></button>
-  <button onclick="exportProgress()" aria-label="Exporter"><b>📤</b><span>Exporter</span></button>
-  <button onclick="importProgress()" aria-label="Importer"><b>📥</b><span>Importer</span></button>
+  <button class="active" data-target="home" onclick="setView('home')"><b>🏠</b><span>Accueil</span></button>
+  <button data-target="guide" onclick="setView('guide')"><b>🔎</b><span>Guide</span></button>
+  <button data-target="favorites" onclick="setView('favorites')"><b>⭐</b><span>Favoris</span></button>
+  <button data-target="remaining" onclick="setView('remaining')"><b>🎯</b><span>À faire</span></button>
+  <button data-target="stats" onclick="setView('stats')"><b>📊</b><span>Stats</span></button>
 </nav>
+
 
 <div class="modal" id="modal">
   <div class="sheet">

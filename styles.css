@@ -365,3 +365,42 @@ nav button span{white-space:nowrap}
   .hero-stats span{font-size:19px}
   nav button span{font-size:9px}
 }
+
+[hidden]{display:none!important}
+.hero-stats.four{grid-template-columns:repeat(4,1fr)}
+nav button.active b{filter:drop-shadow(0 0 8px rgba(255,189,56,.55))}
+nav button.active span{color:var(--gold)}
+.empty-state{
+  padding:28px 18px;
+  text-align:center;
+  color:var(--muted);
+  border:1px dashed #34343e;
+  border-radius:18px;
+  background:rgba(255,255,255,.02)
+}
+.info-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.info-pill{
+  display:inline-flex;
+  align-items:center;
+  padding:7px 10px;
+  border-radius:999px;
+  background:#222229;
+  border:1px solid #34343c;
+  color:#d8d8df;
+  font-size:12px
+}
+.info-pill.secret{color:#d6c8ff;border-color:#5d4c8c;background:rgba(142,108,255,.1)}
+.settings-actions{display:grid;gap:10px;margin-top:18px}
+.settings-actions button{
+  padding:14px;
+  border-radius:14px;
+  border:1px solid #34343c;
+  background:#202027;
+  color:white;
+  font-weight:700;
+  font-size:14px
+}
+.settings-actions button.danger{color:#ff8f8f;border-color:#613434;background:rgba(255,87,87,.08)}
+@media(max-width:560px){
+  .hero-stats.four{grid-template-columns:repeat(2,1fr)}
+}

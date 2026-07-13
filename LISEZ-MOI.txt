@@ -1,14 +1,15 @@
-GUNGEON COMPANION — MISE À JOUR V4
+GUNGEON COMPANION — MISE À JOUR V5
 
 NOUVEAUTÉS
-- nouveau design beaucoup plus moderne
-- écran d’accueil avec grandes statistiques
-- cartes visuelles par catégorie
-- barre de navigation flottante
-- fiches plus agréables
-- animations et effets de profondeur
-- meilleur affichage sur iPhone
-- version affichée : v4.0
+- vraie navigation par pages
+- page Accueil
+- page Guide
+- page Favoris
+- page À débloquer
+- page Statistiques
+- fiches plus riches avec étage et indicateur Secret
+- meilleure gestion de l’export/import
+- version affichée : v5.0
 
 INSTALLATION
 1. Décompresse le ZIP.
