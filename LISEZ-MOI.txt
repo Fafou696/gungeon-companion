@@ -1,25 +1,21 @@
-GUNGEON COMPANION — VERSION 7 ILLUSTRÉE
+GUNGEON COMPANION — CORRECTIF V7.1
 
-NOUVEAUTÉS
-- 208 illustrations originales en style pixel
-- une image différente pour chaque fiche
-- images dans les listes
-- grande image dans les fiches détaillées
-- fonctionnement hors ligne
-- emoji de secours si une image ne charge pas
-- version affichée : v7.0
+PROBLÈME CORRIGÉ
+La v7 dépendait d’un dossier images contenant plus de 200 fichiers.
+GitHub n’a probablement pas envoyé ce dossier correctement.
 
-IMPORTANT
-Ces dessins sont des illustrations originales générées pour ton application.
-Ce ne sont pas les sprites officiels du jeu, ce qui évite les problèmes de droits
-et permet de partager gratuitement l’application avec tes amis.
+Dans la v7.1 :
+- les 208 illustrations sont directement intégrées dans app.js
+- aucun dossier images n’est nécessaire
+- l’application fonctionne même si seuls les fichiers principaux sont envoyés
+- version affichée : v7.1
 
 INSTALLATION
 1. Décompresse le ZIP.
-2. Dans GitHub : Add file > Upload files.
-3. Sélectionne TOUS les fichiers ET les dossiers data et images.
+2. Sur GitHub : Add file > Upload files.
+3. Sélectionne tous les fichiers visibles et le dossier data.
 4. Commit changes.
-5. Attends 2 à 5 minutes, car il y a plus de 200 images.
+5. Attends 2 à 5 minutes.
 6. Ouvre le lien dans Safari et actualise.
 7. Ferme complètement l’application puis rouvre-la.
-8. Vérifie que la version indique v7.0.
+8. Vérifie que la version affiche v7.1.
