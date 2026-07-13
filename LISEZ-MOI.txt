@@ -1,38 +1,30 @@
-GUNGEON COMPANION — V8.2 COMPLÈTE
+GUNGEON COMPANION — V9.0
 
-Cette archive est simplifiée pour GitHub :
-- aucun dossier data
-- aucun dossier boards
-- aucun fichier pictograms.js
-- toutes les données sont déjà intégrées dans app.js
-- armes.png et objets.png sont directement à la racine
-- version réellement affichée : v8.2
+NOUVEAUTÉ PRINCIPALE
+Les deux grandes planches ont été découpées automatiquement en pictogrammes
+individuels sélectionnables en un seul toucher.
 
-FICHIERS À ENVOYER SUR GITHUB
-- index.html
-- styles.css
-- app.js
-- sw.js
-- manifest.webmanifest
-- icon-192.png
-- icon-512.png
-- armes.png
-- objets.png
-- LISEZ-MOI.txt
+PICTOGRAMMES EXTRAITS
+- Armes : 43
+- Objets : 6
+- Total : 49
+
+UTILISATION
+1. Ouvre une fiche.
+2. Touche « Choisir le pictogramme de cette fiche ».
+3. Choisis Armes ou Objets.
+4. Touche directement le dessin.
+5. Le choix est sauvegardé automatiquement.
 
 INSTALLATION
-1. Décompresse ce ZIP.
-2. Dans GitHub, ouvre le dépôt gungeon-companion.
-3. Add file > Upload files.
-4. Sélectionne TOUS les fichiers du dossier décompressé.
-5. Commit changes.
-6. Attends la coche verte dans Actions / Deployments.
-7. Ouvre :
-   https://fafou696.github.io/gungeon-companion/
-8. Sur iPhone, recharge la page.
-9. Si v8.1 reste affiché, supprime l’ancienne icône de l’écran d’accueil,
-   efface les données du site fafou696.github.io dans Safari, puis réinstalle l’app.
+1. Décompresse le ZIP.
+2. GitHub > Add file > Upload files.
+3. Envoie tous les fichiers.
+4. Commit changes.
+5. Attends le déploiement GitHub Pages.
+6. Ouvre https://fafou696.github.io/gungeon-companion/
+7. Vérifie que la version affiche v9.0.
 
-VÉRIFICATION
-Dans GitHub, ouvre app.js. La ligne 2 doit afficher :
-const APP_VERSION = '8.2';
+IMPORTANT
+Le découpage est automatique à partir des images fournies. Quelques vignettes
+peuvent contenir une petite partie du fond ou deux dessins très proches.

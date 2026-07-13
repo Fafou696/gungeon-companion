@@ -163,7 +163,7 @@
         <div><div class="eyebrow">TES CAPTURES</div><h3>🖼️ Bibliothèque de pictogrammes</h3></div>
         <span id="pictogramTotal"></span>
       </div>
-      <p class="small">Ce sont les deux images exactes que tu as envoyées. Ouvre une fiche, touche « Choisir le pictogramme », puis touche directement l’image voulue sur la planche.</p>
+      <p class="small">Les grandes planches ont été découpées en pictogrammes individuels. Ouvre une fiche puis sélectionne directement le dessin voulu.</p>
       <div id="pictogramGallery" class="reference-boards"></div>
     </section>
   </section>
@@ -210,17 +210,16 @@
 <div id="iconPicker" class="icon-picker">
   <div class="icon-picker-sheet">
     <button class="close" onclick="closeIconPicker()">✕</button>
-    <div class="eyebrow">PICTOGRAMMES FOURNIS</div>
-    <h2>Touche exactement le dessin voulu</h2>
+    <div class="eyebrow">V9 — PICTOGRAMMES DÉCOUPÉS</div>
+    <h2>Choisis directement le dessin</h2>
     <div class="board-tabs">
-      <button class="board-tab active" data-board="armes" onclick="setBoard('armes')">🔫 Armes</button>
-      <button class="board-tab" data-board="objets" onclick="setBoard('objets')">🎒 Objets</button>
+      <button class="board-tab active" data-board="armes" onclick="setIconCategory('armes')">🔫 Armes</button>
+      <button class="board-tab" data-board="objets" onclick="setIconCategory('objets')">🎒 Objets</button>
     </div>
-    <p class="small">Tu peux agrandir l’image avec deux doigts, puis toucher le pictogramme.</p>
-    <div class="board-picker-scroll">
-      <img id="boardPickerImage" src="./armes.png" alt="Planche de pictogrammes" onclick="chooseFromBoard(event)">
-    </div>
+    <div class="picker-summary"><span id="v9IconCount"></span><small>Un seul toucher suffit.</small></div>
+    <div id="v9IconGrid" class="v9-icon-grid"></div>
   </div>
 </div>
+<script src="icons-v9.js"></script>
 </body>
 </html>
