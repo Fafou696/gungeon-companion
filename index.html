@@ -16,10 +16,13 @@
 <header>
   <div class="brand">
     <div class="brand-icon">🔫</div>
-    <div>
-      <h1>Gungeon Companion</h1>
-      <div class="subtitle">Ton guide hors ligne pour Enter the Gungeon</div>
+    <div class="brand-copy">
+      <div class="brand-line"><h1>Gungeon Companion</h1><span class="version-pill">v8.1</span></div>
+      <div class="subtitle">Ton guide complet hors ligne</div>
     </div>
+    <button class="header-progress" onclick="setView('stats')" aria-label="Progression">
+      <strong id="headerProgress">0%</strong><span>Progression</span>
+    </button>
   </div>
 </header>
 
@@ -42,6 +45,15 @@
         <div class="progress-track hero-track"><div class="progress-fill" id="progressBar"></div></div>
         <div class="small" id="progressCount"></div>
       </div>
+    </section>
+
+    <section class="feature-launcher">
+      <button onclick="setView('guide')"><b>📖</b><span>Ammonomicon</span><small>Tout le guide</small></button>
+      <button onclick="setView('pictograms')"><b>🖼️</b><span>Pictogrammes</span><small>Galerie intégrée</small></button>
+      <button onclick="setView('synergies')"><b>🔗</b><span>Synergies</span><small>Combinaisons connues</small></button>
+      <button onclick="setView('map')"><b>🗺️</b><span>Cartes</span><small>Étages et secrets</small></button>
+      <button onclick="setView('stats')"><b>📊</b><span>Progression</span><small>Suivi à 100 %</small></button>
+      <button onclick="setView('journal')"><b>📕</b><span>Journal</span><small>Historique des runs</small></button>
     </section>
 
     <section class="section-block">
@@ -107,6 +119,18 @@
   </section>
 
 
+
+  <section data-view="synergies" hidden>
+    <section class="section-block">
+      <div class="section-title">
+        <div><div class="eyebrow">COMBINAISONS</div><h3>🔗 Synergies connues</h3></div>
+        <span id="synergyCount"></span>
+      </div>
+      <p class="small">Cette page n’affiche que les synergies réellement enregistrées dans les fiches.</p>
+      <section id="synergyList" class="synergy-list"></section>
+    </section>
+  </section>
+
   <section data-view="farewell" hidden>
     <section class="farewell-hero">
       <div class="eyebrow">MISE À JOUR FINALE</div>
@@ -161,18 +185,16 @@
 
 
 
+
 <nav class="nav-scroll">
-  <button class="active" data-target="home" onclick="setView('home')"><b>🏠</b><span>Accueil</span></button>
-  <button data-target="guide" onclick="setView('guide')"><b>🔎</b><span>Guide</span></button>
-  <button data-target="favorites" onclick="setView('favorites')"><b>⭐</b><span>Favoris</span></button>
-  <button data-target="remaining" onclick="setView('remaining')"><b>🎯</b><span>À faire</span></button>
-  <button data-target="map" onclick="setView('map')"><b>🗺️</b><span>Carte</span></button>
-  <button data-target="journal" onclick="setView('journal')"><b>📖</b><span>Journal</span></button>
-  <button data-target="farewell" onclick="setView('farewell')"><b>🌈</b><span>Farewell</span></button>
-  <button data-target="wanted" onclick="setView('wanted')"><b>⌕</b><span>À chercher</span></button>
-  <button data-target="pictograms" onclick="setView('pictograms')"><b>🖼️</b><span>Images</span></button>
-  <button data-target="stats" onclick="setView('stats')"><b>📊</b><span>Stats</span></button>
+  <button class="active" data-target="home" onclick="setView('home')"><b>⌂</b><span>Accueil</span></button>
+  <button data-target="guide" onclick="setView('guide')"><b>⌕</b><span>Guide</span></button>
+  <button data-target="favorites" onclick="setView('favorites')"><b>★</b><span>Favoris</span></button>
+  <button data-target="wanted" onclick="setView('wanted')"><b>◎</b><span>À chercher</span></button>
+  <button data-target="map" onclick="setView('map')"><b>▧</b><span>Carte</span></button>
+  <button data-target="journal" onclick="setView('journal')"><b>▤</b><span>Journal</span></button>
 </nav>
+
 
 
 

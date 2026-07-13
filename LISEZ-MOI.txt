@@ -1,26 +1,25 @@
-GUNGEON COMPANION — V8 PICTOGRAMMES
+GUNGEON COMPANION — V8.1 INTERFACE
 
-Cette version ajoute :
-- 420 pictogrammes extraits des captures fournies
-- une bibliothèque de pictogrammes intégrée
-- attribution manuelle d’un pictogramme à chaque fiche
-- liste « À chercher »
-- export/import des pictogrammes attribués
-- conservation du guide, des favoris, de la progression, de la carte et du journal
-- version affichée : v8.0
+Cette mise à jour modifie réellement l’application :
+- interface sombre inspirée de la maquette
+- nouvel accueil avec raccourcis fonctionnels
+- listes d’armes plus compactes et plus lisibles
+- fiches détaillées avec bloc Qualité / Étage / Mise à jour / Statut
+- nouvelle page Synergies (uniquement les données réellement enregistrées)
+- progression visible dans l’en-tête
+- navigation simplifiée
+- galerie de pictogrammes conservée
+- favoris, À chercher, carte, journal et sauvegarde conservés
+- version affichée : v8.1
 
-COMMENT ATTRIBUER UNE IMAGE
-1. Ouvre une fiche.
-2. Touche « Choisir le pictogramme de cette fiche ».
-3. Choisis l’image correspondante.
-4. L’application mémorise ton choix.
+Les fonctions Scanner IA, assistant en ligne et sauvegarde cloud ne sont pas annoncées
+dans l’application, car elles ne sont pas réellement disponibles dans cette PWA hors ligne.
 
 INSTALLATION
 1. Décompresse le ZIP.
-2. Dans GitHub : Add file > Upload files.
+2. Sur GitHub : Add file > Upload files.
 3. Sélectionne tous les fichiers et le dossier data.
 4. Commit changes.
 5. Attends 2 à 5 minutes.
-6. Ouvre le lien dans Safari et actualise.
-7. Ferme complètement l’application puis rouvre-la.
-8. Vérifie que la version affiche v8.0.
+6. Actualise le site dans Safari.
+7. Ferme complètement l’application et rouvre-la.
