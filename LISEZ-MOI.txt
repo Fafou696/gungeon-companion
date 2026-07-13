@@ -1,20 +1,21 @@
-GUNGEON COMPANION — MISE À JOUR V3
+GUNGEON COMPANION — MISE À JOUR V4
 
-Cette version contient 167 fiches et ajoute :
-- tableau de bord de progression par catégorie
-- prochain objectif recommandé
-- filtre par qualité
-- filtre Tous / Restants / Terminés
-- qualité affichée dans les listes et les fiches
-- cache v3 pour forcer la mise à jour
-- export/import toujours disponible
+NOUVEAUTÉS
+- nouveau design beaucoup plus moderne
+- écran d’accueil avec grandes statistiques
+- cartes visuelles par catégorie
+- barre de navigation flottante
+- fiches plus agréables
+- animations et effets de profondeur
+- meilleur affichage sur iPhone
+- version affichée : v4.0
 
-MISE À JOUR
+INSTALLATION
 1. Décompresse le ZIP.
-2. Dans GitHub : Add file > Upload files.
+2. Sur GitHub : Add file > Upload files.
 3. Sélectionne tous les fichiers.
 4. Commit changes.
 5. Attends 1 à 3 minutes.
 6. Ouvre le lien dans Safari et actualise.
-7. Ferme puis rouvre l’app.
-8. Vérifie que la progression affiche v3.0.
+7. Ferme complètement l’application installée.
+8. Rouvre l’application.

@@ -14,60 +14,107 @@
 <body>
 <input type="file" id="importFile" accept="application/json" hidden>
 <header>
-  <h1>🔫 Gungeon Companion</h1>
-  <div class="subtitle">Guide hors ligne · favoris · progression</div>
+  <div class="brand">
+    <div class="brand-icon">🔫</div>
+    <div>
+      <h1>Gungeon Companion</h1>
+      <div class="subtitle">Ton guide hors ligne pour Enter the Gungeon</div>
+    </div>
+  </div>
 </header>
 
 <main>
-  <section class="card">
-    <div class="progress-head">
-      <span>Progression générale</span>
-      <span id="progressText">0 %</span>
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="eyebrow">ASSISTANT DE PROGRESSION</div>
+      <h2>Maîtrise le Gungeon</h2>
+      <p>Retrouve les armes, objets, boss, secrets et objectifs qu’il te reste à terminer.</p>
+      <div class="hero-stats">
+        <div>
+          <span id="progressText">0 %</span>
+          <small>Progression</small>
+        </div>
+        <div>
+          <span id="totalEntriesHero">0</span>
+          <small>Fiches</small>
+        </div>
+        <div>
+          <span id="favoriteCountHero">0</span>
+          <small>Favoris</small>
+        </div>
+      </div>
+      <div class="progress-track hero-track">
+        <div class="progress-fill" id="progressBar"></div>
+      </div>
+      <div class="small" id="progressCount"></div>
     </div>
-    <div class="progress-track">
-      <div class="progress-fill" id="progressBar"></div>
-    </div>
-    <div class="small" id="progressCount"></div>
   </section>
 
-  <section class="card">
-    <div class="section-head"><strong>🎯 Prochain objectif</strong></div>
+  <section class="section-block">
+    <div class="section-title">
+      <div>
+        <div class="eyebrow">RECOMMANDATION</div>
+        <h3>🎯 Prochain objectif</h3>
+      </div>
+    </div>
     <div id="recommendation"></div>
   </section>
 
-  <input id="search" class="search" placeholder="Rechercher une arme, un boss, un secret…">
-
-  <div class="filters">
-    <select id="qualityFilter"></select>
-    <select id="statusFilter">
-      <option>Tous</option>
-      <option>Restants</option>
-      <option>Terminés</option>
-    </select>
-  </div>
-
-  <div id="categories" class="chips"></div>
-
-  <section class="card">
-    <div class="section-head"><strong>📊 Progression par catégorie</strong></div>
-    <div id="categoryProgress"></div>
+  <section class="section-block">
+    <div class="section-title">
+      <div>
+        <div class="eyebrow">EXPLORER</div>
+        <h3>Catégories</h3>
+      </div>
+    </div>
+    <div id="categoryCards" class="category-grid"></div>
   </section>
 
-  <div class="section-head">
-    <strong>Guide</strong>
-    <span id="resultCount"></span>
-  </div>
+  <section class="section-block">
+    <div class="section-title">
+      <div>
+        <div class="eyebrow">RECHERCHE</div>
+        <h3>Tout le guide</h3>
+      </div>
+      <span id="resultCount"></span>
+    </div>
 
-  <section id="list" class="list"></section>
+    <div class="search-wrap">
+      <span>🔎</span>
+      <input id="search" class="search" placeholder="Arme, objet, boss, secret…">
+    </div>
+
+    <div class="filters">
+      <select id="qualityFilter"></select>
+      <select id="statusFilter">
+        <option>Tous</option>
+        <option>Restants</option>
+        <option>Terminés</option>
+      </select>
+    </div>
+
+    <div id="categories" class="chips"></div>
+    <section id="list" class="list"></section>
+  </section>
+
+  <section class="section-block">
+    <div class="section-title">
+      <div>
+        <div class="eyebrow">STATISTIQUES</div>
+        <h3>Progression par catégorie</h3>
+      </div>
+    </div>
+    <div id="categoryProgress"></div>
+  </section>
 </main>
 
 <nav>
-  <button onclick="setCategory('Toutes')"><b>🏠</b>Accueil</button>
-  <button onclick="document.querySelector('#search').focus()"><b>🔎</b>Recherche</button>
-  <button onclick="showFavorites()"><b>⭐</b>Favoris</button>
-  <button onclick="exportProgress()"><b>📤</b>Exporter</button>
-  <button onclick="importProgress()"><b>📥</b>Importer</button>
-  <button onclick="resetAll()"><b>♻️</b>Effacer</button>
+  <button onclick="setCategory('Toutes')" aria-label="Accueil"><b>🏠</b><span>Accueil</span></button>
+  <button onclick="document.querySelector('#search').focus()" aria-label="Recherche"><b>🔎</b><span>Recherche</span></button>
+  <button onclick="showFavorites()" aria-label="Favoris"><b>⭐</b><span>Favoris</span></button>
+  <button onclick="exportProgress()" aria-label="Exporter"><b>📤</b><span>Exporter</span></button>
+  <button onclick="importProgress()" aria-label="Importer"><b>📥</b><span>Importer</span></button>
 </nav>
 
 <div class="modal" id="modal">
